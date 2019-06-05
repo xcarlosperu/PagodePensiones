@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_perfil"
+            android:title="Perfil de Usuario" />
+        <item
+            android:id="@+id/nav_clave"
+            android:title="Cambio de Contraseña" />
+        <item
+            android:id="@+id/nav_pagos"
+            android:title="Pagos Pendientes" />
+        <item
+            android:id="@+id/nav_historial"
+            android:title="Historial de Pagos Realizados" />
+        <item
+            android:id="@+id/nav_calendario"
+            android:title="Calendario de Pagos" />
+        <item
+            android:id="@+id/nav_reclamos"
+            android:title="Reclamos" />
+        <item
+            android:id="@+id/nav_log"
+            android:title="Log de Usuario" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_sesion"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>
