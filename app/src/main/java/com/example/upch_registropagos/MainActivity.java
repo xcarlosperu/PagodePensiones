@@ -18,9 +18,9 @@ import android.view.Menu;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
-perfil.OnFragmentInteractionListener,
+        perfil.OnFragmentInteractionListener,
         clave.OnFragmentInteractionListener,
-        pagos.OnFragmentInteractionListener,
+        Pagos_pendientesFragment.OnFragmentInteractionListener,
         historial.OnFragmentInteractionListener,
         calendario.OnFragmentInteractionListener,
         reclamos.OnFragmentInteractionListener,
@@ -34,7 +34,7 @@ perfil.OnFragmentInteractionListener,
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
-setSupportActionBar(toolbar);
+        setSupportActionBar(toolbar);
 //FloatingActionButton fab = findViewById(R.id.fab);
 
         /*
@@ -109,7 +109,7 @@ public void onClick(View view) {
 
         } else if (id == R.id.nav_pagos) {
             fm.beginTransaction().replace(R.id.contenedor,
-                    new pagos()).commit();
+                    new Pagos_pendientesFragment()).commit();
 
         } else if (id == R.id.nav_historial) {
             fm.beginTransaction().replace(R.id.contenedor,

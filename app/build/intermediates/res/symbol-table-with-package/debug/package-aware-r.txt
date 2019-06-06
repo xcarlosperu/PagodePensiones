@@ -1150,12 +1150,16 @@ id button3
 id button4
 id button5
 id button6
+id button7
 id buttonPanel
 id cancel_action
 id center
 id center_horizontal
 id center_vertical
 id chains
+id checkBox2
+id checkBox3
+id checkBox4
 id checkbox
 id chronometer
 id clip_horizontal
@@ -1224,6 +1228,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageButton
 id imageView
 id imageView10
 id imageView11
@@ -1347,8 +1352,10 @@ id textStart
 id textView
 id textView3
 id textView4
+id textView5
 id textView6
 id textView7
+id textView8
 id textView9
 id text_input_password_toggle
 id textinput_counter
@@ -1448,6 +1455,7 @@ layout fragment_clave
 layout fragment_historial
 layout fragment_log
 layout fragment_pagos
+layout fragment_pagos_pendientes
 layout fragment_perfil
 layout fragment_reclamos
 layout fragment_sesion2

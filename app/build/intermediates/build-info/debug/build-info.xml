@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.4.1"
-    timestamp="1559777309150"
+    timestamp="1559779376029"
     token="-8401996898667205803"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -73,11 +73,14 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1559776559995"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1559779077295"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\40417486\Desktop\UPCH_RegistroPagos-20190605T205329Z-001\UPCH_RegistroPagos\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\40417486\Desktop\UPCH_RegistroPagos-20190605T205329Z-001\UPCH_RegistroPagos\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\40417486\Desktop\UPCH_RegistroPagos-20190605T205329Z-001\UPCH_RegistroPagos\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -86,16 +89,16 @@
             location="C:\Users\40417486\Desktop\UPCH_RegistroPagos-20190605T205329Z-001\UPCH_RegistroPagos\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\40417486\Desktop\UPCH_RegistroPagos-20190605T205329Z-001\UPCH_RegistroPagos\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\40417486\Desktop\UPCH_RegistroPagos-20190605T205329Z-001\UPCH_RegistroPagos\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\40417486\Desktop\UPCH_RegistroPagos-20190605T205329Z-001\UPCH_RegistroPagos\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\40417486\Desktop\UPCH_RegistroPagos-20190605T205329Z-001\UPCH_RegistroPagos\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\40417486\Desktop\UPCH_RegistroPagos-20190605T205329Z-001\UPCH_RegistroPagos\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\40417486\Desktop\UPCH_RegistroPagos-20190605T205329Z-001\UPCH_RegistroPagos\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\40417486\Desktop\UPCH_RegistroPagos-20190605T205329Z-001\UPCH_RegistroPagos\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\40417486\Desktop\UPCH_RegistroPagos-20190605T205329Z-001\UPCH_RegistroPagos\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -103,16 +106,7 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1559777113002"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\40417486\Desktop\UPCH_RegistroPagos-20190605T205329Z-001\UPCH_RegistroPagos\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1559777309150"
+        timestamp="1559779376029"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\40417486\Desktop\UPCH_RegistroPagos-20190605T205329Z-001\UPCH_RegistroPagos\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
