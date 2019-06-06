@@ -1,5 +1,4 @@
 package com.example.upch_registropagos;
-
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
